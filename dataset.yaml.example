@@ -1,0 +1,8 @@
+path: C:/Users/35342/OneDrive/Desktop/xuanhuangame/dataset
+train: images/train
+val: images/val
+
+names:
+  0: enemy
+  1: enemy_attack
+  2: yellow_flash

@@ -1,0 +1,991 @@
+2026-08-24 16:08:53,482 INFO Started. mode=observe target_window_title='燕云十六声'
+2026-08-24 16:08:53,819 INFO Stopped
+2026-08-24 16:08:53,820 ERROR Fatal error
+Traceback (most recent call last):
+  File "C:\Users\35342\OneDrive\Desktop\xuanhuangame\main.py", line 373, in main
+    run(config)
+    ~~~^^^^^^^^
+  File "C:\Users\35342\OneDrive\Desktop\xuanhuangame\main.py", line 343, in run
+    cooldown_remaining_ms(last_shift, config.shift_cooldown_ms, now),
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\35342\OneDrive\Desktop\xuanhuangame\main.py", line 266, in cooldown_remaining_ms
+    return max(0, round((cooldown_ms / 1000 - (now - last_trigger)) * 1000))
+                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OverflowError: cannot convert float infinity to integer
+2026-08-24 16:14:27,313 INFO Started. mode=observe target_window_title='燕云十六声'
+2026-08-24 16:16:24,143 INFO OBSERVE: would press e
+2026-08-24 16:16:30,982 INFO OBSERVE: would press e
+2026-08-24 16:18:07,267 INFO OBSERVE: would press e
+2026-08-24 16:18:58,022 WARNING Emergency stop requested by f8
+2026-08-24 16:18:58,175 INFO Stopped
+2026-08-24 16:37:06,933 INFO Started. mode=observe target_process='yysls.exe'
+2026-08-24 16:37:13,669 INFO OBSERVE: would press Key.shift
+2026-08-24 16:37:14,320 INFO OBSERVE: would press Key.shift
+2026-08-24 16:37:14,411 INFO OBSERVE: would press e
+2026-08-24 16:37:15,535 INFO OBSERVE: would press Key.shift
+2026-08-24 16:37:16,203 INFO OBSERVE: would press Key.shift
+2026-08-24 16:37:18,643 INFO OBSERVE: would press e
+2026-08-24 16:37:28,643 INFO OBSERVE: would press Key.shift
+2026-08-24 16:37:29,319 INFO OBSERVE: would press Key.shift
+2026-08-24 16:37:29,993 INFO OBSERVE: would press Key.shift
+2026-08-24 16:37:30,677 INFO OBSERVE: would press Key.shift
+2026-08-24 16:37:36,264 INFO OBSERVE: would press e
+2026-08-24 16:37:39,851 INFO OBSERVE: would press e
+2026-08-24 16:37:40,995 INFO OBSERVE: would press e
+2026-08-24 16:37:42,380 INFO OBSERVE: would press e
+2026-08-24 16:37:56,528 INFO OBSERVE: would press e
+2026-08-24 16:38:14,198 INFO OBSERVE: would press Key.shift
+2026-08-24 16:38:46,424 INFO Stopped
+2026-08-24 17:04:12,259 INFO Started. mode=active target_process='yysls.exe'
+2026-08-24 17:04:14,987 INFO Pressed Key.shift
+2026-08-24 17:04:15,647 INFO Pressed Key.shift
+2026-08-24 17:04:18,092 INFO Pressed Key.shift
+2026-08-24 17:04:18,765 INFO Pressed Key.shift
+2026-08-24 17:04:19,445 INFO Pressed Key.shift
+2026-08-24 17:04:20,661 INFO Pressed Key.shift
+2026-08-24 17:04:30,635 INFO Pressed Key.shift
+2026-08-24 17:04:31,718 INFO Pressed Key.shift
+2026-08-24 17:04:40,034 INFO Pressed Key.shift
+2026-08-24 17:04:40,707 INFO Pressed Key.shift
+2026-08-24 17:04:41,360 INFO Pressed Key.shift
+2026-08-24 17:04:42,031 INFO Pressed Key.shift
+2026-08-24 17:04:42,722 INFO Pressed Key.shift
+2026-08-24 17:04:44,603 INFO Pressed Key.shift
+2026-08-24 17:04:45,278 INFO Pressed Key.shift
+2026-08-24 17:04:45,956 INFO Pressed Key.shift
+2026-08-24 17:04:46,634 INFO Pressed Key.shift
+2026-08-24 17:04:47,316 INFO Pressed Key.shift
+2026-08-24 17:04:47,997 INFO Pressed Key.shift
+2026-08-24 17:04:48,671 INFO Pressed Key.shift
+2026-08-24 17:04:49,343 INFO Pressed Key.shift
+2026-08-24 17:04:50,015 INFO Pressed Key.shift
+2026-08-24 17:04:58,671 INFO Pressed Key.shift
+2026-08-24 17:04:59,349 INFO Pressed Key.shift
+2026-08-24 17:05:00,018 INFO Pressed Key.shift
+2026-08-24 17:05:00,691 INFO Pressed Key.shift
+2026-08-24 17:05:01,370 INFO Pressed Key.shift
+2026-08-24 17:05:02,053 INFO Pressed Key.shift
+2026-08-24 17:05:02,723 INFO Pressed Key.shift
+2026-08-24 17:05:03,376 INFO Pressed Key.shift
+2026-08-24 17:05:04,048 INFO Pressed Key.shift
+2026-08-24 17:05:04,730 INFO Pressed Key.shift
+2026-08-24 17:05:05,405 INFO Pressed Key.shift
+2026-08-24 17:05:13,424 INFO Pressed Key.shift
+2026-08-24 17:05:14,085 INFO Pressed Key.shift
+2026-08-24 17:05:14,765 INFO Pressed Key.shift
+2026-08-24 17:05:30,320 INFO Pressed e
+2026-08-24 17:05:38,649 INFO Pressed Key.shift
+2026-08-24 17:05:58,875 INFO Pressed Key.shift
+2026-08-24 17:05:59,557 INFO Pressed Key.shift
+2026-08-24 17:06:00,194 INFO Pressed e
+2026-08-24 17:06:12,221 INFO Pressed Key.shift
+2026-08-24 17:06:12,905 INFO Pressed Key.shift
+2026-08-24 17:07:17,760 INFO Pressed Key.shift
+2026-08-24 17:07:27,309 INFO Pressed Key.shift
+2026-08-24 17:07:27,991 INFO Pressed Key.shift
+2026-08-24 17:07:31,375 INFO Pressed Key.shift
+2026-08-24 17:07:32,055 INFO Pressed Key.shift
+2026-08-24 17:07:32,708 INFO Pressed Key.shift
+2026-08-24 17:07:33,383 INFO Pressed Key.shift
+2026-08-24 17:07:34,053 INFO Pressed Key.shift
+2026-08-24 17:07:34,731 INFO Pressed Key.shift
+2026-08-24 17:07:35,414 INFO Pressed Key.shift
+2026-08-24 17:07:36,089 INFO Pressed Key.shift
+2026-08-24 17:07:37,506 INFO Pressed Key.shift
+2026-08-24 17:07:40,646 INFO Pressed Key.shift
+2026-08-24 17:08:14,288 INFO Pressed Key.shift
+2026-08-24 17:08:15,504 INFO Blocked queued Key.shift: yysls.exe is no longer foreground
+2026-08-24 17:08:16,429 INFO Pressed Key.shift
+2026-08-24 17:08:50,399 INFO Pressed Key.shift
+2026-08-24 17:08:51,076 INFO Pressed Key.shift
+2026-08-24 17:08:51,749 INFO Pressed Key.shift
+2026-08-24 17:08:52,912 INFO Pressed Key.shift
+2026-08-24 17:09:13,053 INFO Pressed Key.shift
+2026-08-24 17:09:13,721 INFO Pressed Key.shift
+2026-08-24 17:09:14,366 INFO Pressed Key.shift
+2026-08-24 17:09:15,028 INFO Pressed Key.shift
+2026-08-24 17:09:19,293 INFO Pressed Key.shift
+2026-08-24 17:09:19,970 INFO Pressed Key.shift
+2026-08-24 17:09:20,645 INFO Pressed Key.shift
+2026-08-24 17:09:21,314 INFO Pressed Key.shift
+2026-08-24 17:09:21,968 INFO Pressed Key.shift
+2026-08-24 17:09:22,640 INFO Pressed Key.shift
+2026-08-24 17:09:23,289 INFO Pressed Key.shift
+2026-08-24 17:09:32,883 INFO Pressed Key.shift
+2026-08-24 17:09:33,576 INFO Pressed Key.shift
+2026-08-24 17:09:34,254 INFO Pressed Key.shift
+2026-08-24 17:09:34,905 INFO Pressed Key.shift
+2026-08-24 17:09:35,572 INFO Pressed Key.shift
+2026-08-24 17:09:36,232 INFO Pressed Key.shift
+2026-08-24 17:09:36,907 INFO Pressed Key.shift
+2026-08-24 17:09:37,574 INFO Pressed Key.shift
+2026-08-24 17:09:38,242 INFO Pressed Key.shift
+2026-08-24 17:09:38,916 INFO Pressed Key.shift
+2026-08-24 17:09:39,566 INFO Pressed Key.shift
+2026-08-24 17:09:40,254 INFO Pressed Key.shift
+2026-08-24 17:09:40,931 INFO Pressed Key.shift
+2026-08-24 17:09:41,610 INFO Pressed Key.shift
+2026-08-24 17:09:42,287 INFO Pressed Key.shift
+2026-08-24 17:09:42,940 INFO Pressed Key.shift
+2026-08-24 17:09:43,609 INFO Pressed Key.shift
+2026-08-24 17:09:44,278 INFO Pressed Key.shift
+2026-08-24 17:09:44,931 INFO Pressed Key.shift
+2026-08-24 17:09:45,604 INFO Pressed Key.shift
+2026-08-24 17:09:46,293 INFO Pressed Key.shift
+2026-08-24 17:09:46,958 INFO Pressed Key.shift
+2026-08-24 17:09:47,622 INFO Pressed Key.shift
+2026-08-24 17:09:48,287 INFO Pressed Key.shift
+2026-08-24 17:09:48,943 INFO Pressed Key.shift
+2026-08-24 17:10:04,159 INFO Pressed e
+2026-08-24 17:10:04,712 INFO Pressed Key.shift
+2026-08-24 17:10:05,384 INFO Pressed Key.shift
+2026-08-24 17:10:06,059 INFO Pressed Key.shift
+2026-08-24 17:10:07,671 INFO Pressed Key.shift
+2026-08-24 17:10:11,901 INFO Pressed Key.shift
+2026-08-24 17:10:12,573 INFO Pressed Key.shift
+2026-08-24 17:10:13,247 INFO Pressed Key.shift
+2026-08-24 17:10:13,907 INFO Pressed Key.shift
+2026-08-24 17:10:14,587 INFO Pressed Key.shift
+2026-08-24 17:10:15,249 INFO Pressed Key.shift
+2026-08-24 17:10:15,928 INFO Pressed Key.shift
+2026-08-24 17:10:16,587 INFO Pressed Key.shift
+2026-08-24 17:10:24,086 INFO Pressed Key.shift
+2026-08-24 17:10:28,818 INFO Pressed Key.shift
+2026-08-24 17:10:44,015 INFO Pressed Key.shift
+2026-08-24 17:10:44,684 INFO Pressed Key.shift
+2026-08-24 17:10:45,359 INFO Pressed Key.shift
+2026-08-24 17:10:46,043 INFO Pressed Key.shift
+2026-08-24 17:10:46,688 INFO Pressed Key.shift
+2026-08-24 17:10:47,343 INFO Pressed Key.shift
+2026-08-24 17:10:48,021 INFO Pressed Key.shift
+2026-08-24 17:10:48,680 INFO Pressed Key.shift
+2026-08-24 17:10:53,722 INFO Pressed Key.shift
+2026-08-24 17:10:54,401 INFO Pressed Key.shift
+2026-08-24 17:10:55,114 INFO Pressed e
+2026-08-24 17:10:55,453 INFO Pressed Key.shift
+2026-08-24 17:11:11,912 INFO Pressed e
+2026-08-24 17:11:12,090 INFO Pressed Key.shift
+2026-08-24 17:11:12,897 INFO Pressed Key.shift
+2026-08-24 17:11:13,168 INFO Pressed e
+2026-08-24 17:11:14,074 INFO Pressed e
+2026-08-24 17:11:24,964 INFO Pressed Key.shift
+2026-08-24 21:30:12,819 INFO Started. mode=active target_process='yysls.exe'
+2026-08-24 21:30:19,712 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:19,845 INFO Key up Key.shift
+2026-08-24 21:30:20,390 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:20,517 INFO Key up Key.shift
+2026-08-24 21:30:21,054 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:21,181 INFO Key up Key.shift
+2026-08-24 21:30:23,330 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:23,453 INFO Key up Key.shift
+2026-08-24 21:30:33,951 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:34,074 INFO Key up Key.shift
+2026-08-24 21:30:34,618 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:34,745 INFO Key up Key.shift
+2026-08-24 21:30:38,937 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:39,060 INFO Key up Key.shift
+2026-08-24 21:30:39,628 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:39,753 INFO Key up Key.shift
+2026-08-24 21:30:40,309 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:40,433 INFO Key up Key.shift
+2026-08-24 21:30:40,976 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:41,100 INFO Key up Key.shift
+2026-08-24 21:30:41,665 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:41,791 INFO Key up Key.shift
+2026-08-24 21:30:42,351 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:42,477 INFO Key up Key.shift
+2026-08-24 21:30:43,023 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:43,154 INFO Key up Key.shift
+2026-08-24 21:30:43,702 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:43,833 INFO Key up Key.shift
+2026-08-24 21:30:44,374 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:44,502 INFO Key up Key.shift
+2026-08-24 21:30:45,024 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:45,154 INFO Key up Key.shift
+2026-08-24 21:30:45,701 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:45,832 INFO Key up Key.shift
+2026-08-24 21:30:46,361 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:46,487 INFO Key up Key.shift
+2026-08-24 21:30:47,032 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:47,157 INFO Key up Key.shift
+2026-08-24 21:30:47,717 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:47,847 INFO Key up Key.shift
+2026-08-24 21:30:48,396 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:48,522 INFO Key up Key.shift
+2026-08-24 21:30:49,082 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:49,208 INFO Key up Key.shift
+2026-08-24 21:30:49,753 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:49,882 INFO Key up Key.shift
+2026-08-24 21:30:50,426 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:50,552 INFO Key up Key.shift
+2026-08-24 21:30:51,106 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:51,237 INFO Key up Key.shift
+2026-08-24 21:30:51,783 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:51,909 INFO Key up Key.shift
+2026-08-24 21:30:52,441 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:52,574 INFO Key up Key.shift
+2026-08-24 21:30:53,456 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:53,588 INFO Key up Key.shift
+2026-08-24 21:30:54,136 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:54,267 INFO Key up Key.shift
+2026-08-24 21:30:54,808 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:54,933 INFO Key up Key.shift
+2026-08-24 21:30:55,460 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:55,592 INFO Key up Key.shift
+2026-08-24 21:30:56,148 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:56,274 INFO Key up Key.shift
+2026-08-24 21:30:58,696 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:58,834 INFO Key up Key.shift
+2026-08-24 21:30:59,353 INFO Key down Key.shift for 120ms
+2026-08-24 21:30:59,487 INFO Key up Key.shift
+2026-08-24 21:31:00,004 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:00,128 INFO Key up Key.shift
+2026-08-24 21:31:00,656 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:00,782 INFO Key up Key.shift
+2026-08-24 21:31:01,307 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:01,431 INFO Key up Key.shift
+2026-08-24 21:31:01,986 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:02,114 INFO Key up Key.shift
+2026-08-24 21:31:02,636 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:02,768 INFO Key up Key.shift
+2026-08-24 21:31:03,312 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:03,444 INFO Key up Key.shift
+2026-08-24 21:31:03,962 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:04,092 INFO Key up Key.shift
+2026-08-24 21:31:04,639 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:04,769 INFO Key up Key.shift
+2026-08-24 21:31:05,299 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:05,426 INFO Key up Key.shift
+2026-08-24 21:31:05,990 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:06,115 INFO Key up Key.shift
+2026-08-24 21:31:06,640 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:06,763 INFO Key up Key.shift
+2026-08-24 21:31:07,943 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:08,068 INFO Key up Key.shift
+2026-08-24 21:31:14,697 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:14,824 INFO Key up Key.shift
+2026-08-24 21:31:15,372 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:15,495 INFO Key up Key.shift
+2026-08-24 21:31:16,023 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:16,147 INFO Key up Key.shift
+2026-08-24 21:31:16,697 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:16,822 INFO Key up Key.shift
+2026-08-24 21:31:17,376 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:17,501 INFO Key up Key.shift
+2026-08-24 21:31:18,056 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:18,178 INFO Key up Key.shift
+2026-08-24 21:31:18,732 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:18,856 INFO Key up Key.shift
+2026-08-24 21:31:19,402 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:19,526 INFO Key up Key.shift
+2026-08-24 21:31:20,077 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:20,201 INFO Key up Key.shift
+2026-08-24 21:31:20,742 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:20,866 INFO Key up Key.shift
+2026-08-24 21:31:21,391 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:21,520 INFO Key up Key.shift
+2026-08-24 21:31:39,868 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:39,993 INFO Key up Key.shift
+2026-08-24 21:31:40,536 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:40,661 INFO Key up Key.shift
+2026-08-24 21:31:41,215 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:41,343 INFO Key up Key.shift
+2026-08-24 21:31:41,870 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:41,995 INFO Key up Key.shift
+2026-08-24 21:31:42,535 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:42,660 INFO Key up Key.shift
+2026-08-24 21:31:43,209 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:43,333 INFO Key up Key.shift
+2026-08-24 21:31:43,883 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:44,009 INFO Key up Key.shift
+2026-08-24 21:31:44,535 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:44,662 INFO Key up Key.shift
+2026-08-24 21:31:45,205 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:45,330 INFO Key up Key.shift
+2026-08-24 21:31:45,880 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:46,005 INFO Key up Key.shift
+2026-08-24 21:31:46,557 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:46,681 INFO Key up Key.shift
+2026-08-24 21:31:54,359 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:54,484 INFO Key up Key.shift
+2026-08-24 21:31:55,034 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:55,159 INFO Key up Key.shift
+2026-08-24 21:31:55,613 INFO Key down e for 120ms
+2026-08-24 21:31:55,738 INFO Key up e
+2026-08-24 21:31:58,012 INFO Key down e for 120ms
+2026-08-24 21:31:58,139 INFO Key up e
+2026-08-24 21:31:58,656 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:58,780 INFO Key up Key.shift
+2026-08-24 21:31:59,811 INFO Key down Key.shift for 120ms
+2026-08-24 21:31:59,936 INFO Key up Key.shift
+2026-08-24 21:32:00,452 INFO Key down e for 120ms
+2026-08-24 21:32:00,580 INFO Key up e
+2026-08-24 21:32:11,737 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:11,862 INFO Key up Key.shift
+2026-08-24 21:32:12,389 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:12,515 INFO Key up Key.shift
+2026-08-24 21:32:13,061 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:13,185 INFO Key up Key.shift
+2026-08-24 21:32:13,738 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:13,868 INFO Key up Key.shift
+2026-08-24 21:32:14,411 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:14,540 INFO Key up Key.shift
+2026-08-24 21:32:24,671 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:24,795 INFO Key up Key.shift
+2026-08-24 21:32:25,351 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:25,476 INFO Key up Key.shift
+2026-08-24 21:32:26,698 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:26,823 INFO Key up Key.shift
+2026-08-24 21:32:27,373 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:27,498 INFO Key up Key.shift
+2026-08-24 21:32:28,057 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:28,184 INFO Key up Key.shift
+2026-08-24 21:32:28,726 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:28,850 INFO Key up Key.shift
+2026-08-24 21:32:29,399 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:29,523 INFO Key up Key.shift
+2026-08-24 21:32:30,087 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:30,211 INFO Key up Key.shift
+2026-08-24 21:32:30,751 INFO Key down Key.shift for 120ms
+2026-08-24 21:32:30,875 INFO Key up Key.shift
+2026-08-24 21:33:38,461 INFO Key down Key.shift for 120ms
+2026-08-24 21:33:38,584 INFO Key up Key.shift
+2026-08-24 21:33:57,703 INFO Key down Key.shift for 120ms
+2026-08-24 21:33:57,830 INFO Key up Key.shift
+2026-08-24 21:34:01,742 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:01,869 INFO Key up Key.shift
+2026-08-24 21:34:02,429 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:02,552 INFO Key up Key.shift
+2026-08-24 21:34:03,089 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:03,214 INFO Key up Key.shift
+2026-08-24 21:34:03,768 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:03,891 INFO Key up Key.shift
+2026-08-24 21:34:06,055 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:06,180 INFO Key up Key.shift
+2026-08-24 21:34:18,512 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:18,637 INFO Key up Key.shift
+2026-08-24 21:34:19,522 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:19,647 INFO Key up Key.shift
+2026-08-24 21:34:20,199 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:20,322 INFO Key up Key.shift
+2026-08-24 21:34:20,875 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:20,999 INFO Key up Key.shift
+2026-08-24 21:34:21,553 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:21,677 INFO Key up Key.shift
+2026-08-24 21:34:22,227 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:22,351 INFO Key up Key.shift
+2026-08-24 21:34:22,908 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:23,038 INFO Key up Key.shift
+2026-08-24 21:34:23,578 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:23,702 INFO Key up Key.shift
+2026-08-24 21:34:24,245 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:24,369 INFO Key up Key.shift
+2026-08-24 21:34:24,895 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:25,021 INFO Key up Key.shift
+2026-08-24 21:34:25,568 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:25,692 INFO Key up Key.shift
+2026-08-24 21:34:26,236 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:26,360 INFO Key up Key.shift
+2026-08-24 21:34:26,909 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:27,034 INFO Key up Key.shift
+2026-08-24 21:34:27,561 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:27,689 INFO Key up Key.shift
+2026-08-24 21:34:28,230 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:28,355 INFO Key up Key.shift
+2026-08-24 21:34:29,868 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:30,005 INFO Key up Key.shift
+2026-08-24 21:34:43,447 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:43,584 INFO Key up Key.shift
+2026-08-24 21:34:44,114 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:44,239 INFO Key up Key.shift
+2026-08-24 21:34:44,769 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:44,894 INFO Key up Key.shift
+2026-08-24 21:34:45,423 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:45,554 INFO Key up Key.shift
+2026-08-24 21:34:46,119 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:46,249 INFO Key up Key.shift
+2026-08-24 21:34:46,795 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:46,919 INFO Key up Key.shift
+2026-08-24 21:34:48,390 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:48,514 INFO Key up Key.shift
+2026-08-24 21:34:49,046 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:49,171 INFO Key up Key.shift
+2026-08-24 21:34:49,745 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:49,871 INFO Key up Key.shift
+2026-08-24 21:34:50,398 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:50,526 INFO Key up Key.shift
+2026-08-24 21:34:51,072 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:51,198 INFO Key up Key.shift
+2026-08-24 21:34:51,737 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:51,871 INFO Key up Key.shift
+2026-08-24 21:34:56,130 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:56,258 INFO Key up Key.shift
+2026-08-24 21:34:57,099 INFO Key down e for 120ms
+2026-08-24 21:34:57,227 INFO Key up e
+2026-08-24 21:34:57,228 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:57,360 INFO Key up Key.shift
+2026-08-24 21:34:57,831 INFO Key down Key.shift for 120ms
+2026-08-24 21:34:57,960 INFO Key up Key.shift
+2026-08-24 21:35:01,236 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:01,362 INFO Key up Key.shift
+2026-08-24 21:35:01,902 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:02,032 INFO Key up Key.shift
+2026-08-24 21:35:10,715 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:10,839 INFO Key up Key.shift
+2026-08-24 21:35:11,401 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:11,526 INFO Key up Key.shift
+2026-08-24 21:35:12,048 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:12,175 INFO Key up Key.shift
+2026-08-24 21:35:12,726 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:12,856 INFO Key up Key.shift
+2026-08-24 21:35:13,397 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:13,521 INFO Key up Key.shift
+2026-08-24 21:35:14,064 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:14,196 INFO Key up Key.shift
+2026-08-24 21:35:14,732 INFO Key down e for 120ms
+2026-08-24 21:35:14,856 INFO Key up e
+2026-08-24 21:35:15,105 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:15,230 INFO Key up Key.shift
+2026-08-24 21:35:15,858 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:15,983 INFO Key up Key.shift
+2026-08-24 21:35:16,404 INFO Key down e for 120ms
+2026-08-24 21:35:16,535 INFO Key up e
+2026-08-24 21:35:20,239 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:20,365 INFO Key up Key.shift
+2026-08-24 21:35:24,646 INFO Key down e for 120ms
+2026-08-24 21:35:24,786 INFO Key up e
+2026-08-24 21:35:47,831 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:47,956 INFO Key up Key.shift
+2026-08-24 21:35:49,614 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:49,742 INFO Key up Key.shift
+2026-08-24 21:35:50,267 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:50,400 INFO Key up Key.shift
+2026-08-24 21:35:50,958 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:51,085 INFO Key up Key.shift
+2026-08-24 21:35:51,207 INFO Key down e for 120ms
+2026-08-24 21:35:51,333 INFO Key up e
+2026-08-24 21:35:56,225 INFO Key down Key.shift for 120ms
+2026-08-24 21:35:56,357 INFO Key up Key.shift
+2026-08-24 21:35:56,685 INFO Key down e for 120ms
+2026-08-24 21:35:56,811 INFO Key up e
+2026-08-24 21:36:00,534 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:00,659 INFO Key up Key.shift
+2026-08-24 21:36:03,429 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:03,560 INFO Key up Key.shift
+2026-08-24 21:36:03,979 INFO Key down e for 120ms
+2026-08-24 21:36:04,105 INFO Key up e
+2026-08-24 21:36:05,546 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:05,683 INFO Key up Key.shift
+2026-08-24 21:36:06,205 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:06,333 INFO Key up Key.shift
+2026-08-24 21:36:06,857 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:06,987 INFO Key up Key.shift
+2026-08-24 21:36:07,526 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:07,657 INFO Key up Key.shift
+2026-08-24 21:36:08,193 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:08,319 INFO Key up Key.shift
+2026-08-24 21:36:08,853 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:08,978 INFO Key up Key.shift
+2026-08-24 21:36:09,625 INFO Key down e for 120ms
+2026-08-24 21:36:09,757 INFO Key up e
+2026-08-24 21:36:11,645 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:11,769 INFO Key up Key.shift
+2026-08-24 21:36:12,475 INFO Key down e for 120ms
+2026-08-24 21:36:12,610 INFO Key up e
+2026-08-24 21:36:14,659 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:14,783 INFO Key up Key.shift
+2026-08-24 21:36:15,467 INFO Key down e for 120ms
+2026-08-24 21:36:15,595 INFO Key up e
+2026-08-24 21:36:17,614 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:17,743 INFO Key up Key.shift
+2026-08-24 21:36:18,307 INFO Key down e for 120ms
+2026-08-24 21:36:18,432 INFO Key up e
+2026-08-24 21:36:19,806 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:19,931 INFO Key up Key.shift
+2026-08-24 21:36:20,486 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:20,613 INFO Key up Key.shift
+2026-08-24 21:36:21,156 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:21,282 INFO Key up Key.shift
+2026-08-24 21:36:21,833 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:21,958 INFO Key up Key.shift
+2026-08-24 21:36:22,485 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:22,616 INFO Key up Key.shift
+2026-08-24 21:36:23,153 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:23,280 INFO Key up Key.shift
+2026-08-24 21:36:26,063 INFO Key down Key.shift for 120ms
+2026-08-24 21:36:26,193 INFO Key up Key.shift
+2026-08-24 21:44:43,839 INFO Started. mode=active target_process='definitely-not-running.exe' python=C:\Users\35342\OneDrive\Desktop\xuanhuangame\.venv\Scripts\python.exe input_backend=SendInput input_size=40
+2026-08-24 21:44:44,283 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:44:44,291 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:44:44,299 INFO Stopped
+2026-08-24 21:51:01,769 INFO Stopped
+2026-08-24 21:52:02,123 INFO Started. mode=active target_process='yysls.exe' python=C:\Users\35342\OneDrive\Desktop\xuanhuangame\.venv\Scripts\python.exe input_backend=SendInput input_size=40
+2026-08-24 21:52:13,504 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:13,506 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:52:13,510 INFO Stopped
+2026-08-24 21:52:42,758 INFO Started. mode=active target_process='yysls.exe' python=C:\Users\35342\OneDrive\Desktop\xuanhuangame\.venv\Scripts\python.exe input_backend=SendInput input_size=40
+2026-08-24 21:52:44,100 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:44,103 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:44,226 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:44,777 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:44,783 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:44,909 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:45,448 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:45,450 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:45,575 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:46,106 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:46,110 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:46,233 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:46,761 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:46,764 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:46,887 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:47,438 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:47,440 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:47,563 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:48,089 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:48,098 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:48,226 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:52,689 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:52,691 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:52,813 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:53,373 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:53,376 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:53,498 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:54,037 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:54,047 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:54,170 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:54,710 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:54,713 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:54,837 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:55,359 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:55,362 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:55,493 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:56,024 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:56,026 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:56,149 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:52:56,684 INFO Key down Key.shift for 120ms
+2026-08-24 21:52:56,686 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:52:56,809 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:53:03,531 INFO Key down Key.shift for 120ms
+2026-08-24 21:53:03,534 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:53:03,656 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:53:05,813 INFO Key down Key.shift for 120ms
+2026-08-24 21:53:05,816 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:53:05,937 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:53:06,477 INFO Key down Key.shift for 120ms
+2026-08-24 21:53:06,480 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:53:06,602 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:53:07,138 INFO Key down Key.shift for 120ms
+2026-08-24 21:53:07,143 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:53:07,268 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:53:08,254 INFO Key down Key.shift for 120ms
+2026-08-24 21:53:08,259 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:53:08,381 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:53:16,902 INFO Key down e for 120ms
+2026-08-24 21:53:16,911 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:53:17,034 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:53:21,034 INFO Key down Key.shift for 120ms
+2026-08-24 21:53:21,038 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:53:21,160 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:53:31,055 INFO Key down e for 120ms
+2026-08-24 21:53:31,057 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:53:31,179 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:53:36,762 INFO Key down e for 120ms
+2026-08-24 21:53:36,764 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:53:36,887 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:53:39,966 INFO Key down e for 120ms
+2026-08-24 21:53:39,979 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:53:40,102 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:53:42,073 INFO Key down e for 120ms
+2026-08-24 21:53:42,076 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:53:42,199 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:53:43,739 INFO Key down Key.shift for 120ms
+2026-08-24 21:53:43,747 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:53:43,871 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:53:48,608 INFO Key down e for 120ms
+2026-08-24 21:53:48,615 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:53:48,740 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:53:50,902 INFO Key down e for 120ms
+2026-08-24 21:53:50,906 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:53:51,031 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:53:52,425 INFO Key down e for 120ms
+2026-08-24 21:53:52,428 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:53:52,552 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:53:53,337 INFO Key down e for 120ms
+2026-08-24 21:53:53,345 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:53:53,467 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:53:57,031 INFO Key down Key.shift for 120ms
+2026-08-24 21:53:57,038 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:53:57,162 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:53:57,282 INFO Key down e for 120ms
+2026-08-24 21:53:57,284 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:53:57,407 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:53:58,017 INFO Key down Key.shift for 120ms
+2026-08-24 21:53:58,020 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:53:58,142 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:54:08,437 INFO Key down Key.shift for 120ms
+2026-08-24 21:54:08,442 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:54:08,564 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:54:11,614 INFO Key down e for 120ms
+2026-08-24 21:54:11,618 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:54:11,743 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:54:19,849 INFO Key down Key.shift for 120ms
+2026-08-24 21:54:19,852 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:54:19,974 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:54:22,954 INFO Key down Key.shift for 120ms
+2026-08-24 21:54:22,963 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:54:23,085 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:54:24,111 INFO Key down Key.shift for 120ms
+2026-08-24 21:54:24,114 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:54:24,241 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:54:24,777 INFO Key down Key.shift for 120ms
+2026-08-24 21:54:24,786 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:54:24,908 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:54:25,513 INFO Key down Key.shift for 120ms
+2026-08-24 21:54:25,516 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:54:25,638 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:54:25,858 INFO Key down e for 120ms
+2026-08-24 21:54:25,867 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:54:25,990 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:54:27,055 INFO Key down e for 120ms
+2026-08-24 21:54:27,058 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:54:27,180 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:54:27,973 INFO Key down e for 120ms
+2026-08-24 21:54:27,976 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:54:28,099 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:54:28,891 INFO Key down e for 120ms
+2026-08-24 21:54:28,893 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:54:29,016 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:54:29,908 INFO Key down e for 120ms
+2026-08-24 21:54:29,917 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:54:30,040 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:54:50,938 INFO Key down Key.shift for 120ms
+2026-08-24 21:54:50,948 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:54:51,070 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:54:51,601 INFO Key down e for 120ms
+2026-08-24 21:54:51,610 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:54:51,733 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:54:51,735 INFO Key down Key.shift for 120ms
+2026-08-24 21:54:51,744 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:54:51,868 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:54:55,077 INFO Key down e for 120ms
+2026-08-24 21:54:55,080 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:54:55,205 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:54:58,082 INFO Key down e for 120ms
+2026-08-24 21:54:58,091 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:54:58,214 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:04,997 INFO Key down Key.shift for 120ms
+2026-08-24 21:55:05,001 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:55:05,123 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:55:12,217 INFO Key down e for 120ms
+2026-08-24 21:55:12,226 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:12,348 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:17,945 INFO Key down e for 120ms
+2026-08-24 21:55:17,948 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:18,070 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:19,068 INFO Key down Key.shift for 120ms
+2026-08-24 21:55:19,072 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-24 21:55:19,195 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:55:19,206 INFO Key down e for 120ms
+2026-08-24 21:55:19,208 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:19,330 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:21,695 INFO Key down e for 120ms
+2026-08-24 21:55:21,697 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:21,820 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:26,585 INFO Key down e for 120ms
+2026-08-24 21:55:26,587 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:26,710 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:28,067 INFO Key down e for 120ms
+2026-08-24 21:55:28,071 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:28,194 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:30,269 INFO Key down e for 120ms
+2026-08-24 21:55:30,274 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:30,397 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:31,757 INFO Key down e for 120ms
+2026-08-24 21:55:31,766 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:31,890 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:36,978 INFO Key down e for 120ms
+2026-08-24 21:55:36,980 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:37,104 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:38,275 INFO Key down e for 120ms
+2026-08-24 21:55:38,280 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:38,405 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:42,558 INFO Key down e for 120ms
+2026-08-24 21:55:42,562 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-24 21:55:42,686 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:45,311 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-24 21:55:45,313 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-24 21:55:45,313 INFO Stopped
+2026-08-25 15:43:32,578 ERROR GUI callback failed:
+Traceback (most recent call last):
+  File "C:\Users\35342\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2079, in __call__
+    return self.func(*args)
+           ~~~~~~~~~^^^^^^^
+  File "C:\Users\35342\OneDrive\Desktop\xuanhuangame\dataset_studio.py", line 263, in _save_box
+    x1, y1, x2, y2 = self.canvas.coords(self.rect_id)
+    ^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 0)
+
+2026-08-25 15:44:22,739 ERROR GUI callback failed:
+Traceback (most recent call last):
+  File "C:\Users\35342\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2079, in __call__
+    return self.func(*args)
+           ~~~~~~~~~^^^^^^^
+  File "C:\Users\35342\OneDrive\Desktop\xuanhuangame\dataset_studio.py", line 263, in _save_box
+    x1, y1, x2, y2 = self.canvas.coords(self.rect_id)
+    ^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 4, got 0)
+
+2026-08-25 15:47:04,667 INFO Started. mode=active target_process='yysls.exe' python=C:\Users\35342\OneDrive\Desktop\xuanhuangame\.venv\Scripts\python.exe input_backend=SendInput input_size=40
+2026-08-25 15:47:05,736 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:05,739 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:05,862 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:06,108 INFO Key down e for 120ms
+2026-08-25 15:47:06,112 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-25 15:47:06,237 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-25 15:47:06,645 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:06,648 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:06,770 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:07,325 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:07,329 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:07,452 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:08,000 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:08,005 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:08,129 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:08,679 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:08,682 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:08,804 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:09,359 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:09,363 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:09,487 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:10,038 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:10,040 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:10,164 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:10,717 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:10,719 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:10,842 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:11,391 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:11,395 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:11,519 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:12,072 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:12,076 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:12,200 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:14,184 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:14,188 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:14,312 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:14,854 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:14,859 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:14,981 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:15,534 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:15,539 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:15,664 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:16,209 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:16,212 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:16,334 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:18,470 INFO Key down e for 120ms
+2026-08-25 15:47:18,472 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-25 15:47:18,595 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-25 15:47:33,294 INFO Key down e for 120ms
+2026-08-25 15:47:33,298 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-25 15:47:33,420 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-25 15:47:33,867 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:33,869 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:33,994 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:34,547 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:34,551 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:34,674 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:36,000 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:36,003 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:36,125 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:38,979 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:38,982 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:39,104 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:39,649 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:39,652 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:39,775 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:40,333 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:40,335 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:40,458 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:44,419 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:44,422 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:44,544 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:45,258 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:45,261 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:45,384 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:45,934 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:45,938 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:46,059 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:46,612 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:46,614 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:46,736 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:47,287 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:47,290 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:47,412 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:47,993 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:47,998 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:48,122 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:48,910 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:48,913 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:49,036 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:49,585 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:49,587 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:49,710 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:50,253 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:50,256 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:50,378 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:50,927 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:50,930 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:51,052 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:51,608 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:51,612 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:51,736 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:52,281 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:52,284 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:52,405 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:52,955 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:52,960 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:53,082 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:53,636 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:53,640 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:53,762 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:54,313 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:54,316 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:54,438 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:54,991 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:54,993 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:55,115 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:55,666 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:55,671 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:55,793 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:56,342 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:56,345 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:56,467 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:57,017 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:57,020 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:57,144 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:57,831 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:57,834 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:57,956 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:58,638 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:58,641 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:58,763 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:59,314 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:59,317 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:47:59,439 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:47:59,992 INFO Key down Key.shift for 120ms
+2026-08-25 15:47:59,997 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:00,120 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:00,664 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:00,666 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:00,787 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:01,340 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:01,348 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:01,470 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:02,012 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:02,015 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:02,137 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:02,691 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:02,693 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:02,817 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:03,369 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:03,372 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:03,494 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:04,045 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:04,047 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:04,168 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:04,720 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:04,722 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:04,844 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:05,392 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:05,395 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:05,517 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:06,680 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:06,683 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:06,806 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:18,790 INFO Key down e for 120ms
+2026-08-25 15:48:18,794 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-25 15:48:18,916 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-25 15:48:18,917 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:18,918 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:19,041 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:19,535 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:19,539 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:19,661 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:19,843 INFO Key down e for 120ms
+2026-08-25 15:48:19,846 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-25 15:48:19,969 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-25 15:48:22,333 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:22,338 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:22,460 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:31,173 INFO Key down e for 120ms
+2026-08-25 15:48:31,176 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-25 15:48:31,299 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-25 15:48:32,959 INFO Key down e for 120ms
+2026-08-25 15:48:32,962 INFO SendInput ok for e, key_up=False, scan=0x12
+2026-08-25 15:48:33,084 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-25 15:48:33,193 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:33,198 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:33,320 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:33,869 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:33,875 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:33,997 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:34,541 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:34,544 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:34,667 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:36,803 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:36,806 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:36,929 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:37,478 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:37,482 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:37,605 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:38,154 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:38,157 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:38,279 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:38,825 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:38,829 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:38,951 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:39,504 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:39,507 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:39,630 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:40,175 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:40,178 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:40,301 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:40,849 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:40,851 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:40,973 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:41,524 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:41,526 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:41,648 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:42,192 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:42,196 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:42,320 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:42,872 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:42,874 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:42,996 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:43,545 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:43,547 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:43,669 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:44,213 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:44,216 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:44,338 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:44,891 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:44,894 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:45,017 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:45,565 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:45,570 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:45,692 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:46,238 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:46,242 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:46,363 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:46,909 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:46,918 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:47,040 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:47,585 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:47,590 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:47,717 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:48,727 INFO Key down Key.shift for 120ms
+2026-08-25 15:48:48,731 INFO SendInput ok for Key.shift, key_up=False, scan=0x2a
+2026-08-25 15:48:48,854 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:50,812 INFO SendInput ok for Key.shift, key_up=True, scan=0x2a
+2026-08-25 15:48:50,814 INFO SendInput ok for e, key_up=True, scan=0x12
+2026-08-25 15:48:50,822 INFO Stopped

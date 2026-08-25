@@ -1,0 +1,15 @@
+Collecting mss>=10.0.0 (from -r requirements.txt (line 1))
+  Using cached mss-10.2.0-py3-none-any.whl.metadata (7.2 kB)
+Requirement already satisfied: numpy>=1.26.0 in .\.venv\Lib\site-packages (from -r requirements.txt (line 2)) (2.5.2)
+Collecting opencv-python>=4.9.0.80 (from -r requirements.txt (line 3))
+  Using cached opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Collecting pynput>=1.7.7 (from -r requirements.txt (line 4))
+  Using cached pynput-1.8.2-py2.py3-none-any.whl.metadata (32 kB)
+Requirement already satisfied: pywin32>=306 in .\.venv\Lib\site-packages (from -r requirements.txt (line 5)) (312)
+Requirement already satisfied: six in .\.venv\Lib\site-packages (from pynput>=1.7.7->-r requirements.txt (line 4)) (1.17.0)
+Using cached mss-10.2.0-py3-none-any.whl (67 kB)
+Using cached opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl (44.0 MB)
+Using cached pynput-1.8.2-py2.py3-none-any.whl (92 kB)
+Installing collected packages: pynput, opencv-python, mss
+
+Successfully installed mss-10.2.0 opencv-python-5.0.0.93 pynput-1.8.2
