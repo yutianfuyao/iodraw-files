@@ -11,7 +11,7 @@
 - 游戏进程名称必须为 `yysls.exe`
 - 游戏和脚本建议使用相同权限启动；如果游戏以管理员身份运行，脚本也请以管理员身份运行
 
-首次安装在 Windows PowerShell 中执行（示例，yysls是我自己命令，下载全部文件请自行命名）：
+首次安装在 Windows PowerShell 中执行（示例，yysls是我自己命名，下载全部文件请自行命名）：
 
 ```powershell
 cd C:\Users\35342\OneDrive\Desktop\yysls
