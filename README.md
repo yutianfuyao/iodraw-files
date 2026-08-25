@@ -11,23 +11,16 @@
 - 游戏进程名称必须为 `yysls.exe`
 - 游戏和脚本建议使用相同权限启动；如果游戏以管理员身份运行，脚本也请以管理员身份运行
 
-首次安装在 Windows PowerShell 中执行：
+首次安装在 Windows PowerShell 中执行（示例，yysls是我自己命令，下载全部文件请自行命名）：
 
 ```powershell
-cd C:\Users\35342\OneDrive\Desktop\xuanhuangame
+cd C:\Users\35342\OneDrive\Desktop\yysls
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 Copy-Item config.example.json config.json -ErrorAction SilentlyContinue
 ```
 
-请优先使用项目虚拟环境中的解释器。部分电脑的 `python` 命令可能指向无效的
-`D:\python.exe`，这会导致 PowerShell 日志出现 `No module named encodings`，或实际运行的不是本项目环境。
-可以完全不依赖命令别名，直接执行：
-
-```powershell
-cd C:\Users\35342\OneDrive\Desktop\xuanhuangame
-& .\.venv\Scripts\python.exe .\main.py
 ```
 
 如果 PowerShell 禁止激活虚拟环境，可以不激活，直接使用虚拟环境里的 Python：
@@ -59,7 +52,7 @@ python main.py
 2. 启动脚本：
 
    ```powershell
-   cd C:\Users\35342\OneDrive\Desktop\xuanhuangame
+   cd C:\Users\35342\OneDrive\Desktop\yysls
    .\.venv\Scripts\Activate.ps1
    python main.py
    ```
@@ -153,7 +146,7 @@ python main.py
 4. 每批采集运行下面的命令，采集结束时在预览窗口按 `Esc`：
 
 ```powershell
-cd C:\Users\35342\OneDrive\Desktop\xuanhuangame
+cd C:\Users\35342\OneDrive\Desktop\yysls
 & .\.venv\Scripts\python.exe .\collect_dataset.py `
   --left 650 --top 180 --width 620 --height 620 `
   --fps 8 --output dataset/raw/idle --preview
